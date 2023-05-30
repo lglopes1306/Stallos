@@ -1,0 +1,10 @@
+﻿[qryGrid]
+Coordinates=10,10,51,51
+
+[ADOConnection1]
+Coordinates=151,1,99,33
+
+[]
+Coordinates=76,1,50,51
+Visible=True
+

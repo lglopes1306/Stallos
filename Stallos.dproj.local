@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/05/29 11:04:29.660,=C:\Users\prese\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/29 11:59:27.607,=C:\Users\prese\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/05/29 11:59:42.521,C:\Users\prese\OneDrive\Documentos\Embarcadero\Studio\Projects\untValida.pas=C:\Users\prese\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/05/29 12:44:01.305,C:\Users\prese\OneDrive\Área de Trabalho\Stallos\untCadastro.pas=C:\Users\prese\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/29 12:44:01.305,C:\Users\prese\OneDrive\Área de Trabalho\Stallos\untCadastro.dfm=C:\Users\prese\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/05/29 13:11:32.329,C:\Users\prese\OneDrive\Documentos\Embarcadero\Studio\Projects\untValida.pas=</Transaction>
+    <Transaction>2023/05/29 15:17:51.635,=C:\Users\prese\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/29 15:18:08.355,C:\Users\prese\OneDrive\Área de Trabalho\Stallos\dtmStallos.dfm=C:\Users\prese\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/05/29 15:18:08.355,C:\Users\prese\OneDrive\Área de Trabalho\Stallos\dtmStallos.pas=C:\Users\prese\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/29 16:37:41.175,C:\Users\prese\OneDrive\Área de Trabalho\Stallos\Stallos.dproj=C:\Users\prese\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

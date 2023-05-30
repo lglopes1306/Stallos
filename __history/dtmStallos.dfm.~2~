@@ -1,0 +1,13 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 150
+  Width = 215
+  object ADOConnection1: TADOConnection
+    ConnectionString = 
+      'Provider=SQLOLEDB.1;Persist Security Info=False;User ID=Luiz;Ini' +
+      'tial Catalog=Stallos;Data Source=localhost\SQLEXPRESS'
+    Provider = 'SQLOLEDB.1'
+    Left = 56
+    Top = 24
+  end
+end

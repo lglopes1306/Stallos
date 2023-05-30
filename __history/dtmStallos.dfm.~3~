@@ -1,0 +1,30 @@
+object DataModule1: TDataModule1
+  OldCreateOrder = False
+  Height = 358
+  Width = 527
+  object ADOConnection1: TADOConnection
+    ConnectionString = 
+      'Provider=SQLOLEDB.1;Persist Security Info=False;User ID=Luiz;Ini' +
+      'tial Catalog=Stallos;Data Source=localhost\SQLEXPRESS'
+    Provider = 'SQLOLEDB.1'
+    Left = 56
+    Top = 24
+  end
+  object qryGrid: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    SQL.Strings = (
+      'Select * from Pessoa as p'
+      'inner join Endereco as e on p.idPessoa = e.idPessoa'
+      
+        'inner join Endereco_Integracao as ei on e.idEndereco = ei.idEnde' +
+        'reco')
+    Left = 56
+    Top = 88
+  end
+  object DataSource1: TDataSource
+    DataSet = qryGrid
+    Left = 48
+    Top = 152
+  end
+end

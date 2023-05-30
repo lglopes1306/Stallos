@@ -1,0 +1,49 @@
+unit dtmStallos;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, Data.Win.ADODB, Datasnap.DBClient,
+  Datasnap.Provider;
+
+type
+  TDataModule1 = class(TDataModule)
+    ADOConnection1: TADOConnection;
+    qryGrid: TADOQuery;
+    dtsGrid: TDataSource;
+    qryGrididPessoa: TAutoIncField;
+    qryGridflNatureza: TIntegerField;
+    qryGriddsDocumento: TStringField;
+    qryGridnmPrimeiro: TStringField;
+    qryGridnmSegundo: TStringField;
+    qryGriddtRegistro: TWideStringField;
+    qryGrididEndereco: TAutoIncField;
+    qryGrididPessoa_1: TIntegerField;
+    qryGriddsCEP: TStringField;
+    qryGrididEnderecoIntegracao: TAutoIncField;
+    qryGrididEndereco_1: TIntegerField;
+    qryGriddsUF: TStringField;
+    qryGridnmCidade: TStringField;
+    qryGridnmBairro: TStringField;
+    qryGridnmLogradouro: TStringField;
+    qryGriddsComplemento: TStringField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule1: TDataModule1;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+
+
+
+
+end.
